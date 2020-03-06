@@ -129,15 +129,76 @@
       background-image:  image-url("bg/mayo.jpg");
       background-size: 100% 100%;
       &--one{
-        padding: 25px;
+        padding: 25px 80px;
         width:$yoko;
         height:600px;
       }
         &--two{
           padding: 0 20px;
           background-color: lawngreen;
-          width: 100%;
+          width:$yoko;
           height: 80px;
+          color: white;
+          font-size: 40px;
+          font-weight: 900;
+          overflow:auto;
+          text-align: center;
+          line-height: 80px;
+        span{
+          color: yellow;
+          font-style: oblique;
+        }
+      }
+        &--three{
+          width:$yoko;
+          height: 425px;
+          background-color: white;
+          display: flex;
+          span{
+            font-size: 20px;
+            font-weight: 400;
+          }
+      }
+          &--four{
+            padding-top: 5px;
+            width: 50%;
+            height: 100%;
+            overflow:auto;
+          }
+          &--five{
+            padding: 5px 0 0 5px;
+            width: 50%;
+            height: 100%;
+            overflow:auto;
+            
+          }
+          &--six{
+            width:$yoko;
+            height: 20px;
+            overflow:auto;
+            text-align: center;
+            line-height: 20px;
+            font-weight: bold;
+            color: white;
+          }
+        &--seven{
+          height: 50px;
+          width:$yoko;
+          background-color: rosybrown;
+          overflow:auto;
+          text-align: center;
+          line-height: 50px;
+          span{
+            color: red;
+            font-size: 20px;
+            font-weight: 700;
+          }
+          .icon{
+            text-decoration: none;
+          }
+          .beaf{
+            width:$yoko;
+          }
         }
     }
   }
@@ -151,6 +212,7 @@
     padding:$waku;
     background-image:  image-url("bg/haikei4.jpg");
     background-size: 100% 100%;
+    overflow:auto;
     
     &--box{
       width:$yoko;
