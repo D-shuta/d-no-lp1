@@ -62,9 +62,22 @@
     .contents__sabufour--box
       .contents__sabufour--box--one
         .contents__sabufour--box--two
-          今の仕事
-          
-        
+          今の仕事、<span>自動化</span>しませんか？
+        .contents__sabufour--box--three
+          .contents__sabufour--box--four
+            <span>①ビフォー</span>
+            = image_tag "bg/reji.jpg",width: "320",height:"200", class:"beaf" 
+            = image_tag "bg/tyumon2.jpg",width: "320",height:"200", class:"beaf"
+          .contents__sabufour--box--five
+            <span>②アフター</span>
+            = image_tag "bg/reji2.jpg",width: "320",height:"200", class:"beaf" 
+            = image_tag "bg/tyumon3.jpg",width: "320",height:"200", class:"beaf"
+        .contents__sabufour--box--six
+          人手不足解消に繋がる　　自動化のお手伝いいたします♪
+        .contents__sabufour--box--seven
+          詳しくはこちら
+          =link_to "#",target:"_blank",class:"icon" do
+            <span>　　会社名　　〇〇</span>
   .contents__footer
     .contents__footer--box
       = link_to "#", class: "contents__footer--btnone" do
