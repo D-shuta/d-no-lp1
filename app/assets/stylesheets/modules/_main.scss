@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+
+.contents{
+  width:$yoko;
+  height:$tate;
+
+  &__hader{
+    width:$yoko;
+    height: 80px;
+    background-color:white;
+    padding:$waku;
+    display: flex;
+    background-image:  image-url("bg/hituji.jpg");
+    background-size: 100%  ;
+    &--boxone{
+      width:$yoko;
+      height: 70px;
+      margin-top: 7px;
+      &--text{
+        font-size: 26px;
+        font-weight: bold;
+      a{
+        text-decoration: none;
+        padding-right: 10px;
+        color:red;
+        font-size: 15px;
+      }
+      }
+    }
+    &--boxtwo{
+      width:20%;
+      height: 70px;
+      margin: 14px 0 0 20px;
+      font-size: 7px;
+      text-align: center;
+      p{
+        font-size: 18px;
+        font-style: oblique;
+      }
+      span{
+        color: red;
+        font-size: 22px;
+        font-weight: bolder;
+      }
+    }
+    }
+  &__mainone{
+    width:$yoko;
+    height: 750px;
+    padding:$waku;
+
+    }
+    &__mainone--box{
+      width:$yoko;
+      height:$tate;
+      background-image:  image-url("bg/haikei2.jpg");
+      background-size: 100% 100%;
+      display:flex;
+      &--one{
+        margin-top: 25px;
+        width:43%;
+        
+      }
+      &--two{
+        margin-top: 25px;
+        width:43%;
+      }
+      &--three{
+        width:14%;
+        height:$tate;
+        margin: 25px 0 0 10px;
+        &--text{
+          width:$yoko;
+          height: 350px;
+          padding-left: 10px;
+        }
+
+      }
+      .icon{
+        width:$yoko;
+      }
+      .icon1{
+        margin-top: 10px;
+        width:$yoko;
+        
+      }
+      .icon2{
+        margin-left: 20px;
+        width:$yoko;
+      }
+      .icon3{
+        margin-top: 10px;
+        margin-left: 20px;
+        width:$yoko;
+      }
+      
+    }
+  }
+}

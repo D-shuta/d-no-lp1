@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+
+.contents{
+  width:$yoko;
+  height:$tate;
+  &__sabuone{
+    margin-top: 70px;
+    width:$yoko;
+    height: 600px;
+    padding:$waku;
+    &--box{
+      width:$yoko;
+      height:600px;
+      background-image:  image-url("bg/haikei2.jpg");
+      background-size: 100% 100%;
+      display: flex;
+      &--one{
+        width:28%;
+        height:$tate;
+        font-size: 18px;
+        color:blue;
+        font-weight: bold;
+      }
+      &--two{
+        width:28%;
+        height:$tate;
+        font-size: 18px;
+        color:blue;
+        font-weight: bold;
+        margin-left: 10px;
+      }
+      &--three{
+        width:28%;
+        height:$tate;
+        font-size: 18px;
+        color:blue;
+        font-weight: bold;
+        margin-left: 10px;
+      }
+      &--four{
+        width:14%;
+        height:$tate;
+        margin-top: 25px;
+      }
+    }
+    .hon{
+      width:$yoko;
+    }
+  }
+  &__sabutwo{
+    width:$yoko;
+    height: 600px;
+    padding:$waku;
+    &--box{
+      width:$yoko;
+      height:600px;
+      background-image:  image-url("bg/kamo.jpg");
+      background-size: 100% 100%;
+    }
+  }
+  &__sabuthree{
+    width:$yoko;
+    height: 600px;
+    padding:$waku;
+    &--box{
+      width:$yoko;
+      height:600px;
+      background-image:  image-url("bg/mayo.jpg");
+      background-size: 100% 100%;
+    }
+  }
+
+  &__footer{
+    width:$yoko;
+    height: 100px;
+    background-color:burlywood;
+    padding:$waku;
+    background-image:  image-url("bg/haikei4.jpg");
+    background-size: 100% 100%;
+    
+    &--box{
+      width:$yoko;
+      height: 30px;
+      padding: 20px 0 ;
+      
+      a{
+        text-decoration: none;
+        padding-right: 10px;
+        font-size: 15px;
+        font-weight: 300;
+      }
+    }
+    .contents__footer--name{
+      width:$yoko;
+      height: 30px;
+      margin: 20px 0;
+      text-align: center;
+      line-height: 20px;
+      font-weight: bold;
+      font-style:italic ;
+      
+      
+    }
+    a{
+      text-decoration: none;
+      color: black;
+    }
+    }
+  }
+}
+
