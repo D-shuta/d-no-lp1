@@ -17,14 +17,12 @@
       display: flex;
       &--one{
         width:28%;
-        height:$tate;
         font-size: 18px;
         color:blue;
         font-weight: bold;
       }
       &--two{
         width:28%;
-        height:$tate;
         font-size: 18px;
         color:blue;
         font-weight: bold;
@@ -32,7 +30,6 @@
       }
       &--three{
         width:28%;
-        height:$tate;
         font-size: 18px;
         color:blue;
         font-weight: bold;
@@ -40,7 +37,6 @@
       }
       &--four{
         width:14%;
-        height:$tate;
         margin-top: 25px;
       }
     }
@@ -57,9 +53,58 @@
       height:600px;
       background-image:  image-url("bg/kamo.jpg");
       background-size: 100% 100%;
+      display: flex;
+
+      &--one{
+        margin-top: 10px;
+        width:43%;
+        
+      }
+      &--two{
+        margin-top: 10px;
+        width:43%;
+      }
+      &--three{
+        width:14%;
+        margin: 10px 0 0 20px;
+        &--text{
+          width:$yoko;
+          height: 350px;
+          padding-left: 10px;
+        }
+      }
+      .icon3{
+        width:$yoko;
+      }
+      .icon4{
+        margin-top: 10px;
+        width:$yoko;
+        
+      }
+      .icon5{
+        margin-left: 20px;
+        width:$yoko;
+      }
+      .icon6{
+        margin-top: 10px;
+        margin-left: 20px;
+        width:$yoko;
+      }
     }
+
   }
   &__sabuthree{
+    width:$yoko;
+    height: 600px;
+    padding:$waku;
+    &--box{
+      width:$yoko;
+      height:600px;
+      background-image:  image-url("bg/mayo.jpg");
+      background-size: 100% 100%;
+    }
+  }
+  &__sabufour{
     width:$yoko;
     height: 600px;
     padding:$waku;
