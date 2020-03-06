@@ -57,6 +57,13 @@
       background-image:  image-url("bg/haikei2.jpg");
       background-size: 100% 100%;
       display:flex;
+      span{
+        font-size: 23px;
+        font-weight: bolder;
+        font-style: inherit;
+        color: white;
+        margin-left: 10px;
+      }
       &--one{
         margin-top: 25px;
         width:43%;

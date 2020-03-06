@@ -12,32 +12,47 @@
     &--box{
       width:$yoko;
       height:600px;
-      background-image:  image-url("bg/haikei2.jpg");
+      background-image:  image-url("bg/haikei6.jpg");
       background-size: 100% 100%;
       display: flex;
       &--one{
-        width:28%;
+        width:20%;
         font-size: 18px;
         color:blue;
         font-weight: bold;
       }
       &--two{
-        width:28%;
+        width:20%;
         font-size: 18px;
         color:blue;
         font-weight: bold;
         margin-left: 10px;
       }
       &--three{
-        width:28%;
+        width:20%;
         font-size: 18px;
         color:blue;
         font-weight: bold;
         margin-left: 10px;
       }
       &--four{
-        width:14%;
-        margin-top: 25px;
+        width:40%;
+        margin: 25px 0 0 10px;
+        &--text{
+          font-weight: bold;
+        a{
+          color: blue;
+        }
+        span{
+          font-style: oblique;
+          font-size: 24px;
+        }
+        span1{
+          color: red;
+          font-size: 20px;
+        }  
+
+        }
       }
     }
     .hon{
@@ -113,9 +128,22 @@
       height:600px;
       background-image:  image-url("bg/mayo.jpg");
       background-size: 100% 100%;
+      &--one{
+        padding: 25px;
+        width:$yoko;
+        height:600px;
+      }
+        &--two{
+          padding: 0 20px;
+          background-color: lawngreen;
+          width: 100%;
+          height: 80px;
+        }
     }
   }
 
+
+  
   &__footer{
     width:$yoko;
     height: 100px;
