@@ -51,6 +51,10 @@
           color: red;
           font-size: 20px;
         }  
+        span2{
+          color:forestgreen;
+          font-size: 14px;
+        }  
 
         }
       }
@@ -66,7 +70,7 @@
     &--box{
       width:$yoko;
       height:600px;
-      background-image:  image-url("bg/kamo.jpg");
+      background-image:  image-url("bg/haikei7.jpg");
       background-size: 100% 100%;
       display: flex;
 
@@ -115,18 +119,7 @@
     &--box{
       width:$yoko;
       height:600px;
-      background-image:  image-url("bg/mayo.jpg");
-      background-size: 100% 100%;
-    }
-  }
-  &__sabufour{
-    width:$yoko;
-    height: 600px;
-    padding:$waku;
-    &--box{
-      width:$yoko;
-      height:600px;
-      background-image:  image-url("bg/mayo.jpg");
+      background-image:  image-url("bg/sinpuru.jpg");
       background-size: 100% 100%;
       &--one{
         padding: 25px 80px;
@@ -146,6 +139,89 @@
           line-height: 80px;
         span{
           color: yellow;
+          font-style: oblique;
+        }
+      }
+        &--three{
+          width:$yoko;
+          height: 425px;
+          background-color: white;
+          display: flex;
+          span{
+            font-size: 20px;
+            font-weight: 400;
+          }
+      }
+          &--four{
+            padding-top: 5px;
+            width: 50%;
+            height: 100%;
+            // overflow:auto;
+          }
+          &--five{
+            padding: 5px 0 0 5px;
+            width: 50%;
+            height: 100%;
+            // overflow:auto;
+            
+          }
+          &--six{
+            width:$yoko;
+            height: 20px;
+            overflow:auto;
+            text-align: center;
+            line-height: 20px;
+            font-weight: bold;
+            color: white;
+          }
+        &--seven{
+          height: 50px;
+          width:$yoko;
+          background-color: rosybrown;
+          overflow:auto;
+          text-align: center;
+          line-height: 50px;
+          span{
+            color: red;
+            font-size: 20px;
+            font-weight: 700;
+          }
+          .icon{
+            text-decoration: none;
+          }
+          .beaf{
+            width:$yoko;
+          }
+        }
+    }
+  }
+  &__sabufour{
+    width:$yoko;
+    height: 600px;
+    padding:$waku;
+    &--box{
+      width:$yoko;
+      height:600px;
+      background-image:  image-url("bg/sinpuru.jpg");
+      background-size: 100% 100%;
+      &--one{
+        padding: 25px 80px;
+        width:$yoko;
+        height:600px;
+      }
+        &--two{
+          padding: 0 20px;
+          background-color: rgb(148, 73, 163);
+          width:$yoko;
+          height: 80px;
+          color: white;
+          font-size: 40px;
+          font-weight: 900;
+          overflow:auto;
+          text-align: center;
+          line-height: 80px;
+        span{
+          color: rgb(23, 230, 178);
           font-style: oblique;
         }
       }
@@ -202,8 +278,187 @@
         }
     }
   }
+  &__sabufive{
+    width:$yoko;
+    height: 600px;
+    padding:$waku;
+    &--box{
+      width:$yoko;
+      height:600px;
+      background-image:  image-url("bg/sinpuru.jpg");
+      background-size: 100% 100%;
+      &--one{
+        padding: 25px 80px;
+        width:$yoko;
+        height:600px;
+      }
+        &--two{
+          padding: 0 20px;
+          background-color: rgb(236, 240, 232);
+          width:$yoko;
+          height: 80px;
+          color: rgb(20, 19, 19);
+          font-size: 40px;
+          font-weight: 900;
+          overflow:auto;
+          text-align: center;
+          line-height: 80px;
+        span{
+          color: rgb(39, 185, 34);
+          font-style: oblique;
+        }
+      }
+        &--three{
+          width:$yoko;
+          height: 390px;
+          background-color: white;
+          display: flex;
+      }
+          &--four{
+            padding-top: 5px;
+            width: 30%;
+            height: 100%;
+            overflow:auto;
+          }
+            .contents__sabufive--box--four--one{
+              width:$yoko;
+              height: 95px;
+              border-bottom: solid lightgrey 1px;
+              border-right: solid lightgrey 1px;
+              text-align: left;
+              line-height: 95px;
+              overflow:auto;
+              font-size: 20px;
+              span{
+                color: red;
+                font-size: 24px;
+              }
+          }
+            .contents__sabufive--box--four--two{
+              width:$yoko;
+              height: 95px;
+              border-bottom: solid lightgrey 1px;
+              border-right: solid lightgrey 1px;
+              text-align: left;
+              line-height: 95px;
+              overflow:auto;
+              font-size: 20px;
+              span{
+                color: red;
+                font-size: 24px;
+            }
+          }
+            .contents__sabufive--box--four--three{
+              width:$yoko;
+              height: 95px;
+              border-bottom: solid lightgrey 1px;
+              border-right: solid lightgrey 1px;
+              text-align: left;
+              line-height: 95px;
+              overflow:auto;
+              font-size: 20px;
+          }
+            .contents__sabufive--box--four--four{
+              width:$yoko;
+              height: 95px;
+              border-bottom: solid lightgrey 1px;
+              border-right: solid lightgrey 1px;
+              text-align: left;
+              line-height: 95px;
+              overflow:auto;
+              font-size: 20px;
+        }
+          &--five{
+            padding: 5px 0 0 5px;
+            width: 70%;
+            height: 100%;
+            overflow:auto;
+            .contents__sabufive--box--five--one{
+              width:$yoko;
+              height: 95px;
+              border-bottom: solid lightgrey 1px;
+              border-right: solid lightgrey 1px;
+              line-height: 95px;
+          }
+            .contents__sabufive--box--five--two{
+              width:$yoko;
+              height: 95px;
+              border-bottom: solid lightgrey 1px;
+              border-right: solid lightgrey 1px;
+              line-height: 95px;
+        }
+            .contents__sabufive--box--five--three{
+              width:$yoko;
+              height: 95px;
+              border-bottom: solid lightgrey 1px;
+              border-right: solid lightgrey 1px;
+              line-height: 95px;
+          }
+            .contents__sabufive--box--five--four{
+              width:$yoko;
+              height: 95px;
+              border-bottom: solid lightgrey 1px;
+              border-right: solid lightgrey 1px;
+              line-height: 95px;
+          }
 
-
+          }
+          &--sousin{
+            text-align: right;
+            width:$yoko;
+            // height: 25px;
+            background-color: white;
+            span {
+              display: inline-block;
+              padding: 0.5em 1em;
+              text-decoration: none;
+              background: #b130a6;/*ボタン色*/
+              color: #08090a;/*ボタン色より暗く*/
+              box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+              border-bottom: solid 3px #627295;
+              border-radius: 3px;
+              font-weight: bold;
+              text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+            }
+            
+            span:active  {
+              -webkit-transform: translateY(4px);
+              transform: translateY(4px);
+              box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+              border-bottom: none;
+            }
+          }
+          &--six{
+            width:$yoko;
+            height: 20px;
+            overflow:auto;
+            text-align: center;
+            line-height: 20px;
+            font-weight: bold;
+            color: white;
+          }
+        &--seven{
+          height: 50px;
+          width:$yoko;
+          background-color: rgb(184, 182, 197);
+          overflow:auto;
+          text-align: center;
+          line-height: 50px;
+          
+          span{
+            font-size: 20px;
+            font-weight: 700;
+          }
+          .icon{
+            text-decoration: none;
+          }
+          .beaf{
+            width:$yoko;
+          }
+          
+        }
+    }
+  }
   
   &__footer{
     width:$yoko;
@@ -218,13 +473,37 @@
       width:$yoko;
       height: 30px;
       padding: 20px 0 ;
+      display: flex;
       
       a{
         text-decoration: none;
         padding-right: 10px;
         font-size: 15px;
         font-weight: 300;
+        
       }
+      span {
+        display:inline-block;
+        transition: .5s;
+      }
+      :hover span {
+        -webkit-transform: rotateX(360deg);
+        transform: rotateX(360deg);
+      }
+      &--two--icon{
+        color:blue ;
+      }
+      &--four--icon{
+        color:lightskyblue ;
+        padding-left: 10px;
+      } 
+      &--five--icon{
+        color:pink ;
+      }
+      &--six{
+       padding-left: 5px;
+      }
+
     }
     .contents__footer--name{
       width:$yoko;
