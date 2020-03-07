@@ -32,6 +32,7 @@
           <p><a>⑤</a></p><p>あ</p>
           <p><a>⑥</a></p><p>あ</p>
           <p>気になったら画像をクリック♪</p>
+          <p><span2>Amazonの購入ページにとびます</span2></p>
   .contents__sabutwo
     .contents__sabutwo--box
       .contents__sabutwo--box--one
@@ -57,12 +58,37 @@
   .contents__sabuthree
     .contents__sabuthree--box
       .contents__sabuthree--box--one
+        .contents__sabuthree--box--two
+          LPの
+          <span>作成</span>しませんか？
+        .contents__sabuthree--box--three
+          .contents__sabuthree--box--four
+            <span>①自分で作る</span>
+            = link_to "https://peraichi.com/",target:"_blank"do
+              = image_tag "bg/pera.jpg",width: "320",height:"190", class:"beaf" 
+            = link_to "https://promo.form-mailer.jp/lpeditor/?utm_source=article-web&utm_medium=ferret&utm_campaign=lpeditor-201801&utm_content=intermediate",target:"_blank"do
+              = image_tag "bg/pera1.jpg",width: "320",height:"190", class:"beaf"
+          .contents__sabuthree--box--five
+            <span>②依頼して作る</span>
+            %p
+              ここに見本と
+            %p
+              画像リンク
+            -# = image_tag "bg/reji.jpg",width: "320",height:"200", class:"beaf" 
+            -# = image_tag "bg/tyumon2.jpg",width: "320",height:"200", class:"beaf"
+        .contents__sabuthree--box--six
+          LPは　企業でも　個人でも　これからのビジネスに必要不可欠なツールです
+        .contents__sabuthree--box--seven
+          LPとは？　詳しくはこちら
+          =link_to "https://ppc-master.jp/service-list/lp/?gclid=Cj0KCQiAqY3zBRDQARIsAJeCVxNS8zo3reTYtiym5YzETQe0kZh_B9PIGEujYajB1MCTmTXGgSG2-ZcaAodLEALw_wcB",target:"_blank",class:"icon" do
+            <span>　　会社名　　〇〇</span>
         
   .contents__sabufour
     .contents__sabufour--box
       .contents__sabufour--box--one
         .contents__sabufour--box--two
-          今の仕事、<span>自動化</span>しませんか？
+          今の仕事、
+          <span>自動化</span>しませんか？
         .contents__sabufour--box--three
           .contents__sabufour--box--four
             <span>①ビフォー</span>
@@ -78,20 +104,60 @@
           詳しくはこちら
           =link_to "#",target:"_blank",class:"icon" do
             <span>　　会社名　　〇〇</span>
+
+  .contents__sabufive
+    .contents__sabufive--box
+      .contents__sabufive--box--one
+        .contents__sabufive--box--two
+          日常の気づきを
+          <span>メルマガ</span>でシェアします
+        .contents__sabufive--box--three
+          .contents__sabufive--box--four
+            .contents__sabufive--box--four--one
+              メールアドレス<span>　＊必須</span>
+            .contents__sabufive--box--four--two
+              名前（姓、名）<span>　＊必須</span>
+            .contents__sabufive--box--four--three
+              サイトを知ったキッカケ
+            .contents__sabufive--box--four--four
+              気になった記事があれば教えて下さい
+          .contents__sabufive--box--five
+            .contents__sabufive--box--five--one
+              テキスト作る
+            .contents__sabufive--box--five--two
+              テキスト作る
+            .contents__sabufive--box--five--three
+              テキスト作る
+            .contents__sabufive--box--five--four
+              テキスト作る
+        .contents__sabufive--box--sousin
+          %span
+            入力完了したらこちらでメルマガ登録
+        .contents__sabufive--box--six
+          ＊メールマガジンの購読は無料です
+        .contents__sabufive--box--seven
+          %span
+            ↑　今すぐ上記フォームよりお申し込みください　↑
+        
   .contents__footer
     .contents__footer--box
-      = link_to "#", class: "contents__footer--btnone" do
+      = link_to "#", class: "contents__footer--box--one" do
         プライバシーポリシー
-      = link_to "#", class: "contents__footer--btntwo" do
-        |  仮ーーーー
-      = link_to "#", class: "contents__footer--btnthree" do
-        |  仮ーーーー
-      = link_to "#", class: "contents__footer--btnfour" do
-        |  仮ーーーーー
-      = link_to "#", class: "contents__footer--btnfive" do
-        |  仮ーーーーー
-      = link_to "#", class: "contents__footer--btnsix" do
-        |  仮ーーーー
+      = link_to "https://www.facebook.com/profile.php?id=100033674423897", target:"_blank",class: "contents__footer--btntwo" do
+        = icon('fab', 'facebook-square',  class: "contents__footer--box--two--icon")
+        %span Facebook
+      .contents__footer--box--three
+      <a href="https://twitter.com/D_noheya?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @D_noheya</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      = link_to "https://twitter.com/D_noheya", target:"_blank",class: "contents__footer--box--four" do
+        = icon('fab', 'twitter', class: "contents__footer--box--four--icon")
+        %span Twitter
+
+      = link_to "https://www.instagram.com/",target:"_blank", class: "contents__footer--box--five" do
+        = icon('fab', 'instagram', class: "contents__footer--box--five--icon")
+        %span Instagram
+      = image_tag "bg/tik.jpg",width: "16",height:"18", class:"hon"
+      = link_to "#", class: "contents__footer--box--six" do
+        %span Tik Tok
     .contents__footer--name
       〜テックキャンプ　個人アプリ制作〜 制作（たなか　しゅうた
       = link_to "https://kamogashira.com/", target:"_blank" do
