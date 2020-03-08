@@ -36,7 +36,7 @@
         margin-left: 10px;
       }
       &--four{
-        width:40%;
+        width:18%;
         margin: 25px 0 0 10px;
         &--text{
           font-weight: bold;
@@ -45,7 +45,7 @@
         }
         span{
           font-style: oblique;
-          font-size: 24px;
+          font-size: 18px;
         }
         span1{
           color: red;
@@ -57,6 +57,10 @@
         }  
 
         }
+      }
+      &--five{
+        width:22%;
+        margin: 25px 0 0 10px;
       }
     }
     .hon{
@@ -379,6 +383,7 @@
               border-bottom: solid lightgrey 1px;
               border-right: solid lightgrey 1px;
               line-height: 95px;
+              font-size: 12px;
           }
             .contents__sabufive--box--five--two{
               width:$yoko;
@@ -393,6 +398,8 @@
               border-bottom: solid lightgrey 1px;
               border-right: solid lightgrey 1px;
               line-height: 95px;
+              padding-top: 20px;
+              
           }
             .contents__sabufive--box--five--four{
               width:$yoko;
@@ -400,6 +407,7 @@
               border-bottom: solid lightgrey 1px;
               border-right: solid lightgrey 1px;
               line-height: 95px;
+              padding-top: 20px;
           }
 
           }
@@ -408,7 +416,7 @@
             width:$yoko;
             // height: 25px;
             background-color: white;
-            span {
+            .contents__sabufive--box--sousin-btn {
               display: inline-block;
               padding: 0.5em 1em;
               text-decoration: none;
@@ -421,7 +429,7 @@
               text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
             }
             
-            span:active  {
+            .contents__sabufive--box--sousin-btn:active  {
               -webkit-transform: translateY(4px);
               transform: translateY(4px);
               box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
