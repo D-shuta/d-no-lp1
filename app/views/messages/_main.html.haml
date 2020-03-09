@@ -1,14 +1,15 @@
 .contents
+  .article#topic
   .contents__hader
     .contents__hader--boxone
       .contents__hader--boxone--text
         ネットで売上を上げるためのLP
         %p
         = link_to "#",target:"_blank", class: "contents__hader--btnone" do
-          %span プロフィール
+          %span プロフィール  
         = link_to "https://qiita.com/d_shuta",target:"_blank", class: "contents__hader--btntwo" do
           %span|  Qiita
-        = link_to "#",target:"_blank", class: "contents__hader--btnthree" do
+        = link_to anchor: "topic2", class: "contents__hader--btnthree" do
           %span|  SNS
         = link_to "#",target:"_blank", class: "contents__hader--btnfour" do
           %span|  アクセス
